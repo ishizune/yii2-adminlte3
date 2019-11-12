@@ -11,7 +11,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist yiister/yii2-adminlte3 "~1.0"
+composer require --prefer-dist ishizune/yii2-adminlte3 "~1.0"
 ```
 
 or add the following to the `require` section of your `composer.json`
