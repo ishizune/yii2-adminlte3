@@ -1,11 +1,11 @@
 <?php
 /**
  * @copyright Copyright (c) 2015 Yiister
- * @license https://github.com/yiister/yii2-adminlte/blob/master/LICENSE
- * @link http://adminlte.yiister.ru
+ * @license https://github.com/ishizune/yii2-adminlte3/blob/master/LICENSE
+ * @link https://www.weblagoon.it
  */
 
-namespace yiister\adminlte\assets;
+namespace ishizune\adminlte3\assets;
 
 class Asset extends \yii\web\AssetBundle
 {
