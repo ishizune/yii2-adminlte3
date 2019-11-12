@@ -1,11 +1,11 @@
 <?php
 /**
- * @copyright Copyright (c) 2015 Yiister
- * @license https://github.com/yiister/yii2-adminlte/blob/master/LICENSE
- * @link http://adminlte.yiister.ru
+ * @copyright Copyright (c) 2019 Ishizune
+ * @license https://github.com/ishizune/adminlte3/blob/master/LICENSE
+ * @link https://www.weblagoon.it
  */
 
-namespace yiister\adminlte\widgets\grid;
+namespace ishizune\adminlte3\widgets\grid;
 
 use yii\helpers\Html;
 
