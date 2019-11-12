@@ -6,7 +6,7 @@
 
 use yii\helpers\Html;
 
-yiister\adminlte\assets\Asset::register($this);
+ishizune\adminlte3\assets\Asset::register($this);
 
 ?>
 <?php $this->beginPage() ?>
@@ -23,13 +23,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title><?= Html::encode($this->title) ?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.5 -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <?php $this->head() ?>
 </head>
 <!--
@@ -246,7 +239,7 @@ desired effect
 
             <!-- Sidebar Menu -->
             <?=
-            \yiister\adminlte\widgets\Menu::widget(
+            \ishizune\adminlte3\widgets\Menu::widget(
                 [
                     "items" => [
                         ["label" => "Home", "url" => "/", "icon" => "home"],
@@ -280,7 +273,7 @@ desired effect
                                     "icon" => "table",
                                     "badge" => "123",
                                     "badgeOptions" => [
-                                        "class" => \yiister\adminlte\components\AdminLTE::BG_BLUE,
+                                        "class" => \ishizune\adminlte3\components\AdminLTE::BG_BLUE,
                                     ],
                                 ],
                             ],
@@ -356,7 +349,7 @@ desired effect
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; <a href="http://yiister.ru">Yiister</a> <?= date("Y") ?>
+        <strong>Copyright &copy; <a href="https://www.weblagoon.it">Web Lagoon</a> <?= date("Y") ?>
     </footer>
 
     <!-- Control Sidebar -->
