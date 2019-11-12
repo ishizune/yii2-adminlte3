@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) 2015 Yiister
+ * @copyright Copyright (c) 2019 Ishizune
  * @license https://github.com/ishizune/yii2-adminlte3/blob/master/LICENSE
  * @link https://www.weblagoon.it
  */
